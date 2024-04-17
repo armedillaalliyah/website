@@ -1,37 +1,59 @@
-
 body {
-    background-color: lightpink;
+    background-color: #F3FDE8;
 }
 
 .container {
     margin: 0 auto;
     max-width: 800px;
     padding: 20px;
-    background-color: lightseagreen;
 }
 
 #header {
-    background-color: lightgreen; 
+    background-color: #A8DF8E; 
     color: black;
     text-align: center;
-    padding: 20px 0;
-    box-shadow: 4px 5px 15px brown;
+    padding: 10px 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-style: solid;
+    border-color: #FFE5E5;
 }
 
-#interest_hobbies, #works, #testimonials {
-    background-color: lightskyblue; 
+#interest_hobbies {
+    background-color: #FFE5E5; 
     color: black;
     padding: 30px;
     margin-bottom: 20px;
     text-align: center;
-    box-shadow: 4px 5px 15px black;
+    border-radius: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#works {
+    background-color: #FFBFBF; 
+    color: black;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-color: #1A5D1A #A8DF8E #F3FDE8 #FFBFBF;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#testimonials {
+    background-color: #FFE5E5; 
+    color: black;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 .title {
-    background-color: lightgreen;
+    background-color: #A8DF8E;
     color: black;
     text-align: center;
-    box-shadow: 4px 5px 15px brown;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .gallery img {
@@ -43,7 +65,6 @@ body {
     width: calc(33.33% - 20px); 
     margin: 10px;
     text-align: center;
-
 }
 
 .gallery {
@@ -53,26 +74,26 @@ body {
     justify-content: center;
     align-items: center; 
     text-align: center;
-    margin: 1rem;
-    background-color: rgb(255, 213, 219);
+    margin: 2rem;
+    background-color: #FFBFBF;
     box-sizing: border-box;
     width: auto;
-    box-shadow: 4px 5px 15px brown;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .sam img {
     width: 100px;
     height: auto;
     object-fit: 20px;
-    box-shadow: 4px 5px 15px brown;
+    box-shadow: 4px 5px 15px #1A5D1A;
 } 
 
 .side {
-    border: 1px solid rgb(12, 167, 89);
+    border: 3px solid #FFBFBF;
 }
 
 @media (max-width: 426px) {
-
     .message-container {
         display: flex;
         flex-direction: column;
@@ -92,7 +113,7 @@ body {
 @media (min-width: 426px) {
     .upper {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 3fr 3fr;
         grid-template-rows: 1fr;
     }
 
@@ -104,12 +125,12 @@ body {
     .submit-container {
         display: flex;
         justify-content: center;
-        margin: auto;
+        margin-top: 10px;
     }
 
-    .myDiv{
+    .my_Div {
         display: block;
-                    margin: auto;
-        }
+        margin: auto;
+    }
 }
 
