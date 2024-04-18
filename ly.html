@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Armedilla, Alliyah Samantha</title>
-    <link href="mystyle.css" rel="stylesheet">
+    <link href="contact.css" rel="stylesheet">
   
 </head> 
 <body>
@@ -48,7 +48,7 @@
     <h2 class="title">Gallery</h2>
     <div id="gallery" class="gallery">
         <div class="sam">
-            <img src="images/picture(1).jpg" >
+            <img src="images/picture(1).jpg">
         </div>
         <div class="sam">
             <img src="images/picture(2).jpg" >
@@ -67,46 +67,38 @@
         </div>
      </div>
         
-    <div class="side">
-    <h2 class="title">Contact Me</h2>
-    <div id="contact" class="container">
-         <form>
-              <div class="upper">
-                   <div>
-                        <label for="email">Email</label>
-                        <input type="email" name="email" />
-                   </div>
-    
-                   <div>
-                        <label for="fullname">Fullname</label>
-                        <input type="text" name="fullname" />
-                   </div>
-    
-                   <div>
-                        <label for="age">Age</label>
-                        <input type="number" name="age" />
-                   </div>
-    
-                   <div>
-                        <label for="subject">Subject</label>
-                        <input type="text" name="subject" />
-                   </div>
-             </div>
-    
-             <div class="checkbox-container">
-                  <label for="sendme">Send me a copy</label>
-                  <input type="checkbox" name="sendme" />
-             </div>
-    
-             <div class="message-container">
-                  <label for="message">Message</label>
-                  <textarea name="message" cols="30" rows="10"></textarea>
-             </div>
-    
-             <div class="submit-container">
-                  <input type="submit" />
-            </div>     
-       </form>
-    </div> 
-</body>
-</html>
+
+<div class="contact-me">
+      <h2>Contact Me</h2>
+         <form class="contact-container">
+    <div class="container">
+    <div>
+         <label for="email">Email</label>
+         <input type="text" name="email" id="email" />
+    </div>
+    <div>
+         <label for="fullname">Full name</label>
+         <input type="text" name="fullname" id="fullname" /> 
+    </div>
+    <div>
+         <label for="subject">Subject</label>
+         <input type="text" name="subject" id="subject" />
+    </div>
+    <div>
+         <label for="age">Age</label>
+         <input type="number" name="age" id="age" />
+    </div>
+    </div>
+    <div class="send-copy">
+         <label for="send-copy">Send me a copy</label>
+         <input type="checkbox" name="send_copy" id="send_copy" />
+    </div>
+    <div class="message-contact">
+         <label for="message">Message</label>
+         <textarea name="message" id="message"></textarea>
+    </div>
+    <div class="submit-contact">
+         <input type="submit" value="Submit" />
+    </div>
+      </form>
+    </div>

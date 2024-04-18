@@ -1,0 +1,156 @@
+body {
+    background-color: #F3FDE8;
+    background: url("https://wallpapers.com/background/pink-and-green-background-lk9k3o9jttnhkykl.html");
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+#header {
+    background-color: #A8DF8E; 
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-style: solid;
+    border-color: #FFE5E5;
+}
+
+#interest_hobbies {
+    background-color: #FFE5E5; 
+    color: black;
+    padding: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#works {
+    background-color: #FFBFBF; 
+    color: black;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-color: #1A5D1A #A8DF8E #F3FDE8 #FFBFBF;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#testimonials {
+    background-color: #FFE5E5; 
+    color: black;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.title {
+    background-color: #A8DF8E;
+    color: black;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gallery img {
+    width: 100px;
+    height: 100px;
+}
+
+.sam {
+    width: calc(33.33% - 20px); 
+    margin: 10px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    margin: 2rem;
+    background-color: #FFBFBF;
+    box-sizing: border-box;
+    width: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.sam img {
+    width: 100px;
+    height: auto;
+    object-fit: 20px;
+    box-shadow: 4px 5px 15px #1A5D1A;
+} 
+
+.side {
+    border: 3px solid #FFBFBF;
+}
+
+
+.contact-me {
+    background-color: #dddddd97;
+    margin: 1rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contact-me {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+.contact-container {
+    display: grid;
+    gap: 10px;
+}
+  
+.container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.message-contact {
+    display: flex;
+    flex-direction: column;
+    text-align: left; 
+}
+  
+.checkbox-container {
+    display: flex;
+    align-items: baseline;
+}
+  
+.submit-contact {
+    margin-top: 10px;
+}
+
+.submit-contact {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+}
